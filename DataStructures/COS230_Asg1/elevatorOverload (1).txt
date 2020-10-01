@@ -1,0 +1,8 @@
+// que 6 passengers up at the same time
+// ensuring an overload, the last passenger will need to wait
+2 3 5
+2 5 10
+2 2 5
+2 1 5
+2 4 5
+2 6 10

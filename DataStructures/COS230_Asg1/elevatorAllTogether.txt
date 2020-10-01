@@ -1,0 +1,5 @@
+// que 3 passengers up at the same time
+// should all get on and off at the same time
+0 3 2
+0 3 2
+0 3 2
