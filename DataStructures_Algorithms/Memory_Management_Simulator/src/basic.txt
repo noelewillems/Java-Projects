@@ -1,0 +1,11 @@
+// basic test
+init 1000
+malloc 1 500
+print
+malloc 2 250
+free 1
+print
+free 2
+print
+
+// at end you should have 1 node available 0/999

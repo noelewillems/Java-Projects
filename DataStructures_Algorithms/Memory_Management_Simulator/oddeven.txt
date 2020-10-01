@@ -1,0 +1,17 @@
+// alt used and free
+init 8
+malloc 1 1
+malloc 2 1
+malloc 3 1
+malloc 4 1
+malloc 5 1
+malloc 6 1
+malloc 7 1
+malloc 8 1
+free 2
+free 4
+free 6
+free 8
+print
+
+// at end you should have 8 nodes alt betwen used and free

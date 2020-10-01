@@ -1,0 +1,22 @@
+// chop up memory, free it, then reuse it
+init 8
+malloc 1 1
+malloc 2 1
+malloc 3 1
+malloc 4 1
+malloc 5 1
+malloc 6 1
+malloc 7 1
+malloc 8 1
+free 2
+free 4
+free 6
+free 8
+free 1
+free 3
+free 5
+free 7
+malloc 9 8
+print
+
+// at end you should have 1 node alloced 0/7

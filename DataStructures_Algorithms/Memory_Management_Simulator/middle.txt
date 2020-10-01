@@ -1,0 +1,15 @@
+// create 3 used chunks
+// free the two ends then free the middle
+// should have 1 available chunk
+init 300
+malloc 1 100
+malloc 2 100 
+malloc 3 100 
+print
+free 1
+free 3
+print
+free 2 
+print
+
+// should have 1 chunk 300 long
